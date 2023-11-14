@@ -1,0 +1,822 @@
+[
+  {
+    "name": "Request a Game",
+    "image": "assets/request.png",
+    "url": "request"
+  },
+  {
+    "name": "1v1",
+    "image": "play/1v1/gameicon.jpg",
+    "url": "play/1v1"
+  },
+  {
+    "name": "2048",
+    "image": "play/2048/gameicon.png",
+    "url": "play/2048"
+  },
+  {
+    "name": "Angry Birds",
+    "image": "play/ab/gameicon.png",
+    "url": "play/ab"
+  },
+ {
+    "name": "A dance of fire and ice",
+    "image": "play/adofai/gameicon.jpg",
+    "url": "play/adofai"
+  },
+ {
+    "name": "Aquapark slides",
+    "image": "play/aquapark-slides/gameicon.png",
+    "url": "play/aquapark-slides"
+  },
+  {
+    "name": "Assessment",
+    "image": "play/assessment/gameicon.png",
+    "url": "play/assessment"
+  },
+  {
+    "name": "Awesome tanks 2",
+    "image": "play/awesometanks2/gameicon.jpg",
+    "url": "play/awesometanks2"
+  },
+  {
+    "name": "Backrooms",
+    "image": "play/backrooms/gameicon.png",
+    "url": "play/backrooms"
+  },
+  {
+    "name": "Bad ice cream",
+    "image": "play/bad-ice-cream/gameicon.png",
+    "url": "play/bad-ice-cream"
+  },
+  {
+    "name": "Bad ice cream 2",
+    "image": "play/bad-ice-cream-2/gameicon.png",
+    "url": "play/bad-ice-cream-2"
+  },
+  {
+    "name": "Bad ice cream 3",
+    "image": "play/bad-ice-cream-3/gameicon.png",
+    "url": "play/bad-ice-cream-3"
+  },
+  {
+    "name": "Basketbros.io",
+    "image": "play/basketbros-io/gameicon.jpg",
+    "url": "play/basketbros-io"
+  },
+  {
+    "name": "Basket random",
+    "image": "play/basket-random/gameicon.jpeg",
+    "url": "play/basket-random"
+  },
+  {
+    "name": "Baldi's basics",
+    "image": "play/bb/gameicon.gif",
+    "url": "play/bb"
+  },
+  {
+    "name": "Burger & frights",
+    "image": "play/bf/bf.png",
+    "url": "play/bf"
+  },
+  {
+    "name": "Big red button",
+    "image": "play/bigredbutton/gameicon.png",
+    "url": "play/bigredbutton"
+  },
+  {
+    "name": "Bit life",
+    "image": "play/bitlife/gameicon.png",
+    "url": "play/bitlife"
+  },
+  {
+    "name": "Block post",
+    "image": "play/blockpost/gameicon.png",
+    "url": "play/blockpost"
+  },
+{
+    "name": "Bloxorz",
+    "image": "play/bloxorz/gameicon.png",
+    "url": "play/bloxorz"
+  },
+  {
+    "name": "Blumgi",
+    "image": "play/blumgi/gameicon.png",
+    "url": "play/blumgi"
+  },
+  {
+    "name": "Blumgi ball",
+    "image": "play/blumgiball/gameicon.png",
+    "url": "play/blumgiball"
+  },
+  {
+    "name": "Bacon may die",
+    "image": "play/bmd/gameicon.jpg",
+    "url": "play/bmd"
+  },
+  {
+    "name": "Bomb hopper",
+    "image": "play/bombhopper/gameicon.png",
+    "url": "play/bombhopper"
+  },
+  {
+    "name": "Boxing physics 2",
+    "image": "play/boxing-physics2/gameicon.png",
+    "url": "play/boxing-physics2"
+  },
+  {
+    "name": "Boxing random",
+    "image": "play/boxing-random/gameicon.jpg",
+    "url": "play/boxing-random"
+  },
+  {
+    "name": "Breaklock",
+    "image": "play/breaklock/gameicon.png",
+    "url": "play/breaklock"
+  },
+  {
+    "name": "Breakoid",
+    "image": "play/breakoid/gameicon.png",
+    "url": "play/breakoid"
+  },
+  {
+    "name": "Btd 4",
+    "image": "play/btd4/gameicon.png",
+    "url": "play/btd4"
+  },
+  {
+    "name": "Btd 5",
+    "image": "play/btd5/gameicon.png",
+    "url": "play/btd5"
+  },
+  {
+    "name": "Bullet force",
+    "image": "play/bullet/gameicon.png",
+    "url": "play/bullet"
+  },
+  {
+    "name": "Burrito bison",
+    "image": "play/burritobison/gameicon.png",
+    "url": "play/burritobison"
+  },
+  {
+    "name": "Cannon strike",
+    "image": "play/canonstrike/gameicon.png",
+    "url": "play/canonstrike"
+  },
+  {
+    "name": "Cars simulator",
+    "image": "play/cars-simulator/gameicon.png",
+    "url": "play/cars-simulator"
+  },
+  {
+    "name": "Cell machine",
+    "image": "play/cell-machine/gameicon.png",
+    "url": "play/cell-machine"
+  },
+  {
+    "name": "Cluster rush",
+    "image": "play/cluster-rush/gameicon.jpg",
+    "url": "play/cluster-rush"
+  },
+  {
+    "name": "Cookie clicker",
+    "image": "play/cookieclicker/gameicon.jpg",
+    "url": "play/cookieclicker"
+  },
+  {
+    "name": "Crazy cars",
+    "image": "play/crazycars/gameicon.png",
+    "url": "play/crazycars"
+  },
+  {
+    "name": "Crossy road",
+    "image": "play/crossy/gameicon.png",
+    "url": "play/crossy"
+  },
+ {
+    "name": "Cubefield",
+    "image": "play/cubefield/gameicon.png",
+    "url": "play/cubefield"
+  },
+  {
+    "name": "Dadish",
+    "image": "play/dadish/gameicon.png",
+    "url": "play/dadish"
+  },
+  {
+    "name": "Dadish 2",
+    "image": "play/dadishtwo/gameicon.png",
+    "url": "play/dadishtwo"
+  },
+  {
+    "name": "Dadish 3",
+    "image": "play/dadish3/gameicon.png",
+    "url": "play/dadish3"
+  },
+  {
+    "name": "Dante",
+    "image": "play/dante/gameicon.png",
+    "url": "play/dante"
+  },
+  {
+    "name": "Deal or no deal",
+    "image": "play/deal-or-no-deal/gameicon.jpg",
+    "url": "play/deal-or-no-deal"
+  },
+  {
+    "name": "Deathrun",
+    "image": "play/deathrun/gameicon.jpg",
+    "url": "play/deathrun"
+  },
+  {
+    "name": "Dino",
+    "image": "play/dino/gameicon.jpg",
+    "url": "play/dino"
+  },
+  {
+    "name": "DogeMiner",
+    "image": "play/DogeMiner/gameicon.png",
+    "url": "play/DogeMiner"
+  },
+  {
+    "name": "Dogeminer2",
+    "image": "play/Dogeminer2/gameicon.jpg",
+    "url": "play/Dogeminer2"
+  },
+  {
+    "name": "Dogwash",
+    "image": "play/dogwash/gameicon.png",
+    "url": "play/dogwash"
+  },
+  {
+    "name": "Doodle jump",
+    "image": "play/doodlejump/gameicon.jpg",
+    "url": "play/doodlejump"
+  },
+  {
+    "name": "Dreader",
+    "image": "play/dreader/gameicon.jpg",
+    "url": "play/dreader"
+  },
+  {
+    "name": "Drift hunters",
+    "image": "play/drift-hunters/gameicon.png",
+    "url": "play/drift-hunters"
+  },
+  {
+    "name": "Drive mad",
+    "image": "play/drivemad/gameicon.jpg",
+    "url": "play/drivemad"
+  },
+  {
+    "name": "Ducklife",
+    "image": "play/ducklife/ducklife.png",
+    "url": "play/ducklife"
+  },
+  {
+    "name": "Ducklife 2",
+    "image": "play/Ducklife2/ducklife2.png",
+    "url": "play/ducklife2"
+  },
+  {
+    "name": "Ducklife 3",
+    "image": "play/ducklife3/duck.png",
+    "url": "play/ducklife3"
+  },
+  {
+    "name": "Ducklife 4",
+    "image": "play/ducklife4/splash.jpg",
+    "url": "play/ducklife4"
+  },
+  {
+    "name": "Effingworms",
+    "image": "play/effingworms/gameicon.png",
+    "url": "play/effingworms"
+  },
+    {
+  "name": "Fancypants adventures",
+  "image": "play/fancypantsadventures/gameicon.png",
+  "url": "play/fancypantsadventures"
+  },
+  {
+  "name": "Fireboy & Watergirl",
+  "image": "play/fbwg/gameicon.png",
+  "url": "play/fbwg"
+  },
+  {
+  "name": "Google Feud",
+  "image": "play/feud/gameicon.png",
+  "url": "play/feud"
+  },
+  {
+  "name": "Flappy Bird",
+  "image": "play/flappy/gameicon.png",
+  "url": "play/flappy"
+  },
+  {
+  "name": "Flappy plane",
+  "image": "play/flappyplane/gameicon.png",
+  "url": "play/flappyplane"
+  },
+  {
+  "name": "FNAF",
+  "image": "play/FNAF/gameicon.png",
+  "url": "play/FNAF"
+  },
+  {
+  "name": "FNAF2",
+  "image": "play/FNAF2/gameicon.png",
+  "url": "play/FNAF2"
+  },
+  {
+  "name": "FNAF3",
+  "image": "play/FNAF3/gameicon.png",
+  "url": "play/FNAF3"
+  },
+  {
+  "name": "FNAF4",
+  "image": "play/FNAF4/gameicon.png",
+  "url": "play/FNAF4"
+  },
+  {
+  "name": "fnf",
+  "image": "play/fnf/gameicon.png",
+  "url": "play/fnf"
+  },
+  {
+  "name": "Fields Of Fury",
+  "image": "play/fof/gameicon.png",
+  "url": "play/fof"
+  },
+  {
+  "name": "Fortcraft",
+  "image": "play/fortcraft/gameicon.png",
+  "url": "play/fortcraft"
+  },
+  {
+  "name": "Fruitninja",
+  "image": "play/fruitninja/gameicon.png",
+  "url": "play/fruitninja"
+  },
+  {
+  "name": "Game inside",
+  "image": "play/game-inside/gameicon.png",
+  "url": "play/game-inside"
+  },
+  {
+  "name": "Geometry dash",
+  "image": "gameicon.png",
+  "url": "play/gd"
+  },
+  {
+  "name": "Geforcenow",
+  "image": "gameicon.png",
+  "url": "play/geforcenow"
+  },
+  {
+  "name": "Ghost",
+  "image": "gameicon.png",
+  "url": "play/ghost"
+  },
+  {
+  "name": "Glass city",
+  "image": "gameicon.png",
+  "url": "play/glass-city"
+  },
+  {
+  "name": "Hangman",
+  "image": "gameicon.png",
+  "url": "play/hangman"
+  },
+  {
+    "name": "House of hazards",
+    "image": "play/houseofhazards/gameicon.png",
+    "url": "play/houseofhazards"
+    },
+  {
+  "name": "Happy wheels",
+  "image": "play/happywheels/gameicon.png",
+  "url": "play/happywheels"
+  },
+  {
+  "name": "Hilldraw",
+  "image": "gameicon.png",
+  "url": "play/hilldraw"
+  },
+  {
+  "name": "Hole.io",
+  "image": "gameicon.png",
+  "url": "play/hole"
+  },
+  {
+  "name": "Hotdoggeria",
+  "image": "gameicon.png",
+  "url": "play/hotdoggeria"
+  },
+  {
+  "name": "Idle breakout",
+  "image": "play/ib/gameicon.png",
+  "url": "play/ib"
+  },
+  {
+  "name": "Jetpack joyride",
+  "image": "play/jetpack/gameicon.png",
+  "url": "play/jetpack"
+  },
+  {
+  "name": "justfall",
+  "image": "play/justfall/gameicon.png",
+  "url": "play/justfall"
+  },
+  {
+  "name": "knifehit",
+  "image": "gameicon.png",
+  "url": "play/knifehit"
+  },
+  {
+  "name": "koriwalk",
+  "image": "gameicon.png",
+  "url": "play/koriwalk"
+  },
+  {
+  "name": "ledgethrow",
+  "image": "gameicon.png",
+  "url": "play/ledgethrow"
+  },
+  {
+  "name": "makeitmeme",
+  "image": "gameicon.png",
+  "url": "play/makeitmeme"
+  },
+  {
+  "name": "mariovsluigi",
+  "image": "gameicon.png",
+  "url": "play/mariovsluigi"
+  },
+  {
+  "name": "mc",
+  "image": "gameicon.png",
+  "url": "play/mc"
+  },
+  {
+  "name": "merge-round-racers",
+  "image": "gameicon.png",
+  "url": "play/merge-round-racers"
+  },
+  {
+  "name": "minecraft-18",
+  "image": "gameicon.jpg",
+  "url": "play/minecraft-18"
+  },
+  {
+  "name": "minitrain",
+  "image": "gameicon.png",
+  "url": "play/minitrain"
+  },
+  {
+  "name": "Mobile",
+  "image": "gameicon.png",
+  "url": "play/Mobile"
+  },
+  {
+  "name": "monkey-mart",
+  "image": "gameicon.png",
+  "url": "play/monkey-mart"
+  },
+  {
+  "name": "motox3m",
+  "image": "gameicon.png",
+  "url": "play/motox3m"
+  },
+  {
+  "name": "motox3mpoolparty",
+  "image": "gameicon.png",
+  "url": "play/motox3mpoolparty"
+  },
+  {
+  "name": "motox3mspookyland",
+  "image": "gameicon.png",
+  "url": "play/motox3mspookyland"
+  },
+  {
+  "name": "motox3mwinter",
+  "image": "gameicon.png",
+  "url": "play/motox3mwinter"
+  },
+  {
+  "name": "ovo",
+  "image": "gameicon.png",
+  "url": "play/ovo"
+  },
+  {
+  "name": "paintstrike",
+  "image": "gameicon.png",
+  "url": "play/paintstrike"
+  },
+  {
+  "name": "papasb",
+  "image": "gameicon.png",
+  "url": "play/papasb"
+  },
+  {
+  "name": "papasburgeria",
+  "image": "gameicon.png",
+  "url": "play/papasburgeria"
+  },
+  {
+  "name": "papaspizzaria",
+  "image": "gameicon.png",
+  "url": "play/papaspizzaria"
+  },
+  {
+  "name": "paperio2",
+  "image": "gameicon.png",
+  "url": "play/paperio2"
+  },
+  {
+  "name": "pixel-gun-survival",
+  "image": "gameicon.png",
+  "url": "play/pixel-gun-survival"
+  },
+  {
+  "name": "precision-client",
+  "image": "gameicon.png",
+  "url": "play/precision-client"
+  },
+  {
+    "name": "previewpro",
+    "image": "play/previewpro/gameicon.png",
+    "url": "play/previewpro"
+  },
+  {
+    "name": "recoil",
+    "image": "play/recoil/gameicon.png",
+    "url": "play/recoil"
+  },
+  {
+    "name": "req",
+    "image": "play/req/gameicon.png",
+    "url": "play/req"
+  },
+  {
+    "name": "resent-client",
+    "image": "play/resent-client/gameicon.png",
+    "url": "play/resent-client"
+  },
+  {
+    "name": "retrob",
+    "image": "play/retrob/gameicon.png",
+    "url": "play/retrob"
+  },
+  {
+    "name": "retro-bowl",
+    "image": "play/retro-bowl/gameicon.png",
+    "url": "play/retro-bowl"
+  },
+  {
+    "name": "robogo",
+    "image": "play/robogo/gameicon.png",
+    "url": "play/robogo"
+  },
+  {
+    "name": "rocketsoccerderby",
+    "image": "play/rocketsoccerderby/gameicon.png",
+    "url": "play/rocketsoccerderby"
+  },
+  {
+    "name": "rooftop",
+    "image": "play/rooftop/gameicon.png",
+    "url": "play/rooftop"
+  },
+  {
+    "name": "run",
+    "image": "play/run/gameicon.png",
+    "url": "play/run"
+  },
+  {
+    "name": "run3",
+    "image": "play/run3/gameicon.png",
+    "url": "play/run3"
+  },
+  {
+    "name": "sf",
+    "image": "play/sf/gameicon.png",
+    "url": "play/sf"
+  },
+  {
+    "name": "shellshock",
+    "image": "play/shellshock/gameicon.png",
+    "url": "play/shellshock"
+  },
+  {
+    "name": "shootz",
+    "image": "play/shootz/gameicon.png",
+    "url": "play/shootz"
+  },
+  {
+    "name": "Should We Bring Back The Top Bar",
+    "image": "play/should-we-bring-back-the-top-bar/gameicon.png",
+    "url": "play/should-we-bring-back-the-top-bar"
+  },
+  {
+    "name": "sk",
+    "image": "play/sk/gameicon.png",
+    "url": "play/sk"
+  },
+  {
+    "name": "sketchbook",
+    "image": "play/sketchbook/gameicon.png",
+    "url": "play/sketchbook"
+  },
+  {
+    "name": "slither",
+    "image": "play/slither/gameicon.png",
+    "url": "play/slither"
+  },
+  {
+    "name": "slope",
+    "image": "play/slope/gameicon.png",
+    "url": "play/slope"
+  },
+  {
+    "name": "slope2",
+    "image": "play/slope2/gameicon.png",
+    "url": "play/slope2"
+  },
+  {
+    "name": "sm64",
+    "image": "play/sm64/gameicon.png",
+    "url": "play/sm64"
+  },
+  {
+    "name": "snowrider3d",
+    "image": "play/snowrider3d/gameicon.png",
+    "url": "play/snowrider3d"
+  },
+  {
+    "name": "sr",
+    "image": "play/sr/gameicon.png",
+    "url": "play/sr"
+  },
+  {
+    "name": "stickclimb",
+    "image": "play/stickclimb/gameicon.png",
+    "url": "play/stickclimb"
+  },
+  {
+    "name": "stickman",
+    "image": "play/stickman/gameicon.png",
+    "url": "play/stickman"
+  },
+  {
+    "name": "stuntcars",
+    "image": "play/stuntcars/gameicon.png",
+    "url": "play/stuntcars"
+  },
+  {
+    "name": "subwaysurfers",
+    "image": "play/subwaysurfers/gameicon.png",
+    "url": "play/subwaysurfers"
+  },
+  {
+    "name": "superbrawl",
+    "image": "play/superbrawl/gameicon.png",
+    "url": "play/superbrawl"
+  },
+  {
+    "name": "superhot",
+    "image": "play/superhot/gameicon.png",
+    "url": "play/superhot"
+  },
+  {
+    "name": "sushi-unroll",
+    "image": "play/sushi-unroll/gameicon.png",
+    "url": "play/sushi-unroll"
+  },
+  {
+    "name": "sword",
+    "image": "play/sword/gameicon.png",
+    "url": "play/sword"
+  },
+  {
+    "name": "tacomia",
+    "image": "play/tacomia/gameicon.png",
+    "url": "play/tacomia"
+  },
+  {
+    "name": "tank-trouble-2",
+    "image": "play/tank-trouble-2/gameicon.png",
+    "url": "play/tank-trouble-2"
+  },
+  {
+    "name": "tanuki-sunset",
+    "image": "play/tanuki-sunset/gameicon.png",
+    "url": "play/tanuki-sunset"
+  },
+  {
+    "name": "td",
+    "image": "play/td/gameicon.png",
+    "url": "play/td"
+  },
+  {
+    "name": "tdh",
+    "image": "play/tdh/gameicon.png",
+    "url": "play/tdh"
+  },
+  {
+    "name": "template",
+    "image": "play/template/gameicon.png",
+    "url": "play/template"
+  },
+  {
+    "name": "temple-run-2",
+    "image": "play/temple-run-2/gameicon.png",
+    "url": "play/temple-run-2"
+  },
+  {
+    "name": "tetris",
+    "image": "play/tetris/gameicon.png",
+    "url": "play/tetris"
+  },
+  {
+    "name": "ting",
+    "image": "play/ting/gameicon.png",
+    "url": "play/ting"
+  },
+  {
+    "name": "tiny-fishing",
+    "image": "play/tiny-fishing/gameicon.png",
+    "url": "play/tiny-fishing"
+  },
+  {
+    "name": "townscaper",
+    "image": "play/townscaper/gameicon.png",
+    "url": "play/townscaper"
+  },
+  {
+    "name": "trafficjam",
+    "image": "play/trafficjam/gameicon.png",
+    "url": "play/trafficjam"
+  },
+  {
+    "name": "tunnelrush",
+    "image": "play/tunnelrush/gameicon.png",
+    "url": "play/tunnelrush"
+  },
+  {
+    "name": "vengeio",
+    "image": "play/vengeio/gameicon.png",
+    "url": "play/vengeio"
+  },
+  {
+    "name": "vex3",
+    "image": "play/vex3/gameicon.png",
+    "url": "play/vex3"
+  },
+  {
+    "name": "vex4",
+    "image": "play/vex4/gameicon.png",
+    "url": "play/vex4"
+  },
+  {
+    "name": "vex5",
+    "image": "play/vex5/gameicon.png",
+    "url": "play/vex5"
+  },
+  {
+    "name": "vex6",
+    "image": "play/vex6/gameicon.png",
+    "url": "play/vex6"
+  },
+  {
+    "name": "vex7",
+    "image": "play/vex7/gameicon.png",
+    "url": "play/vex7"
+  },
+  {
+    "name": "volley-random",
+    "image": "play/volley-random/gameicon.png",
+    "url": "play/volley-random"
+  },
+  {
+    "name": "vortelli",
+    "image": "play/vortelli/gameicon.png",
+    "url": "play/vortelli"
+  },
+  {
+    "name": "windows11",
+    "image": "play/windows11/gameicon.png",
+    "url": "play/windows11"
+  },
+  {
+    "name": "wordle",
+    "image": "play/wordle/gameicon.png",
+    "url": "play/wordle"
+  },
+  {
+    "name": "xx142-b2exe",
+    "image": "play/xx142-b2exe/gameicon.png",
+    "url": "play/xx142-b2exe"
+  }
+]

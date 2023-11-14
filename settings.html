@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" style="font-family: Ubuntu, sans-serif;">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>3.0frfr</title>
+    <link rel="icon" type="image/png" sizes="512x512" href="assets/img/nativelogotrans.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="assets/img/nativelogotrans.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="assets/img/nativelogo.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="assets/img/nativelogotrans.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="assets/img/nativelogotrans.png">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="assets/css/Croogla%204F.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu&amp;display=swap">
+    <link rel="stylesheet" href="assets/css/styles-1.css">
+    <link rel="stylesheet" href="assets/css/Navbar-Centered-Links-icons.css">
+</head>
+
+<body class="text-center">
+    <nav class="navbar navbar-light navbar-expand-md py-3">
+        <div class="container"><a class="navbar-brand d-flex align-items-center" href="#"><span style="font-family: 'Croogla 4F';font-size: 29px;"><span style="color: rgb(29, 130, 255);">native.</span></span></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-3"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon" style="color: var(--bs-gray-100);"></span></button>
+            <div class="collapse navbar-collapse" id="navcol-3">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item"><a class="nav-link active" href="./" style="font-family: Ubuntu, sans-serif;"><strong><span style="color: rgba(255, 255, 255, 0.9);">Home</span></strong></a></li>
+                    <li class="nav-item"><a class="nav-link active" href="projects" style="font-family: Ubuntu, sans-serif;"><strong><span style="color: rgb(255, 255, 255);">Games</span></strong></a></li>
+                    <li class="nav-item"><a class="nav-link" href="bookmarklets" style="font-family: Ubuntu, sans-serif;"><strong><span style="color: rgb(255, 255, 255);">Bookmarklets</span></strong></a></li>
+                    <li class="nav-item"><a class="nav-link" href="apps" style="font-family: Ubuntu, sans-serif;"><strong><span style="color: rgb(255, 255, 255);">Apps</span></strong></a></li>
+                    <li class="nav-item"><a class="nav-link" href="blank" style="font-family: Ubuntu, sans-serif;"><strong><span style="color: rgb(255, 255, 255);">About:blank</span></strong></a></li>
+                    <li class="nav-item"><a class="nav-link" href="settings" style="font-family: Ubuntu, sans-serif;"><strong><span style="color: rgb(255, 255, 255);">Settings</span></strong></a></li>
+                    <li class="nav-item" style="margin-top: 8px;margin-left: 4px;">
+                        <div class="nav-item dropdown"><a class="dropdown-toggle" aria-expanded="false" data-bs-toggle="dropdown" href="#" style="border-color: rgb(255,255,255);color: rgb(26,32,35);font-family: Ubuntu, sans-serif;"><strong><span style="color: rgb(255, 255, 255);">More</span></strong></a>
+                            <div class="dropdown-menu" style="background: rgb(13,110,253);"><a class="dropdown-item" href="#" style="background: rgba(255,255,255,0);color: rgb(255,255,255);">Emulator</a><a class="dropdown-item" href="#" style="color: rgb(255,255,255);">Roms</a><a class="dropdown-item" href="#" style="color: rgb(255,255,255);">Credits</a></div>
+                        </div>
+                    </li>
+                </ul><button class="btn btn-primary" type="button" style="font-family: Ubuntu, sans-serif;"><strong>Panic</strong></button>
+            </div>
+        </div>
+    </nav>
+    <h1 class="text-center">Settings</h1>
+    <h5 class="text-center" style="margin-top: 11px;">Website Name</h5><input class="form-control-lg" type="text" id="title" style="border-radius: 9px;background: rgb(255,255,255);border-color: rgba(74,146,254,0);color: rgb(255,255,255);font-family: Ubuntu, sans-serif;text-align: center;" placeholder="Native" name="webname" onkeyup="setTitle(this.value)">
+    <h5 class="text-center" style="margin-top: 11px;">Website icon</h5><input class="form-control-lg" type="text" id="icon" style="border-radius: 9px;background: rgb(255,255,255);border-color: rgba(74,146,254,0);color: rgb(255,255,255);font-family: Ubuntu, sans-serif;text-align: center;" placeholder="https://nativegames.net" name="webicon" onkeyup="setFavicon(this.value.trim())">
+    <div style="margin-top: 12px;"><button class="btn btn-primary submit" id="websubmit" type="submit">Set Tab Cloak</button></div><button class="btn btn-primary submit" id="websubmit-1" type="submit" style="margin-top: 11px;">Reset Tab Cloak</button>
+    <div class="dropdown" style="margin-top: 8px;"><button class="btn btn-primary dropdown-toggle" aria-expanded="false" data-bs-toggle="dropdown" type="button">Select a cloak preset</button>
+        <div class="dropdown-menu text-start" data-bs-popper="none"><a class="dropdown-item" href="#" onclick="setCloak(&#39;search&#39;)">&nbsp;Google Search</a><a class="dropdown-item" href="#" onclick="setCloak(&#39;drive&#39;)">&nbsp;Google Drive</a><a class="dropdown-item" href="#" onclick="setCloak(&#39;canvas&#39;)">Canvas</a><a class="dropdown-item" href="#" onclick="setCloak(&#39;zoom&#39;)">Zoom</a><a class="dropdown-item" href="#" onclick="setCloak(&#39;classroom&#39;)">Google Classroom</a><a class="dropdown-item" href="#" onclick="setCloak(&#39;meets&#39;)">Google Meet</a><a class="dropdown-item" href="#" onclick="setCloak(&#39;teddit&#39;)">Teddit</a><a class="dropdown-item" href="#" onclick="setCloak(&#39;youtube&#39;)">Youtube</a><a class="dropdown-item" href="#" onclick="setCloak(&#39;cornhub&#39;)">CornHub</a><a class="dropdown-item" onclick="setCloak(&#39;nitter&#39;)">Nitter</a></div>
+    </div>
+    <h5 class="text-center" style="margin-top: 11px;">Themes <br>(NOT WORKING YET)</h5><button class="btn btn-primary" type="button" style="border-color: rgba(255,255,255,0);">3.0</button><button class="btn btn-primary" type="button" style="background: rgb(255,15,0);margin-left: 4px;border-color: rgba(255,255,255,0);">2.0</button><button class="btn btn-primary" type="button" style="background: #292929;margin-left: 4px;border-color: rgba(255,255,255,0);">Dark mode</button><button class="btn btn-primary" type="button" style="background: #5a189a;margin-left: 4px;border-color: rgba(255,255,255,0);">Purple</button>
+    <h5 class="text-center" style="margin-top: 11px;">&nbsp;Panic Button Website URL&nbsp;<br>(NOT WORKING YET)</h5><input class="form-control-lg" type="text" id="webicon-1" style="border-radius: 9px;background: rgb(255,255,255);border-color: rgba(74,146,254,0);color: rgb(255,255,255);font-family: Ubuntu, sans-serif;text-align: center;" placeholder="https://google.com" name="webicon">
+    <div style="margin-top: 12px;"><button class="btn btn-primary submit" id="panic" type="submit">Set Panic Button</button></div><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1565760898646999"
+     crossorigin="anonymous"></script>
+<!-- Landscape Ad -->
+<ins class="adsbygoogle"
+     style="display: block;"
+     data-ad-client="ca-pub-1565760898646999"
+     data-ad-slot="9584410312"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script src="assets/js/settings.js"></script><script src="core.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/apps.js"></script>
+    <script src="assets/js/settings.js"></script>
+</body>
+
+</html>

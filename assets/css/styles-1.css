@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #1a2023;
+  color: white;
+  /*opacity: 0;*/
+  animation: fadeIn 1s ease-out forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+header {
+  background-color: #1a2023;
+  padding: 20px;
+  text-align: center;
+}
+
+#searchbar {
+  border-radius: 40px;
+}
+
+h1 {
+  margin: 0;
+}
+
+#gameContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+.gameCard {
+  width: 200px;
+  margin: 10px;
+  padding: 10px;
+  border: 0px solid #ccc;
+  transition: transform 0.3s ease-in-out;
+}
+
+.gameCard:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.gameCard img {
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+}
+
+.gameCard h3 {
+  margin-top: 10px;
+  font-size: 16px;
+  text-align: center;
+}
+
+svg {
+  fill: rgb(255, 255, 255);
+}
+
