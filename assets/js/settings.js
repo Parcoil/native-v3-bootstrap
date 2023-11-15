@@ -258,4 +258,84 @@ function search() {
     }
   }
 }
+ // Panic Button
+ // Check if the URL is stored in localStorage
+    const storedURL = localStorage.getItem('targetURL');
+    const  panicurlInput = document.getElementById(' panicurlInput');
+    
+    // Set the input value to the stored URL, if available
+    if (storedURL) {
+       panicurlInput.value = storedURL;
+    }
 
+    // Save button click event to update the URL
+    document.getElementById('panicsaveButton').addEventListener('click', function() {
+      const newURL =  panicurlInput.value;
+      localStorage.setItem('targetURL', newURL);
+    });
+
+    // Button click event to navigate to the URL
+    document.getElementById('navigateButton').addEventListener('click', function() {
+      const storedURL = localStorage.getItem('targetURL');
+      if (storedURL) {
+        window.location.href = storedURL;
+      } else {
+        alert('Please set a URL first.');
+      }
+    });
+
+// Themes
+
+const themeSelect = document.getElementById('themeSelect');
+const body = document.body;
+
+// Define a default theme
+const defaultTheme = 'light';
+
+// Retrieve the theme from localStorage or use the default
+const savedTheme = localStorage.getItem('selectedTheme') || defaultTheme;
+
+// Apply the theme on initial load
+applyTheme(savedTheme);
+
+// Set the dropdown to the saved theme
+themeSelect.value = savedTheme;
+
+// Event listener for theme change
+themeSelect.addEventListener('change', function() {
+  const selectedTheme = themeSelect.value;
+  applyTheme(selectedTheme);
+  // Save selected theme to localStorage
+  localStorage.setItem('selectedTheme', selectedTheme);
+});
+
+function applyTheme(theme) {
+  switch (theme) {
+    case 'light':
+      body.style.backgroundColor = '#fff';
+      body.style.color = '#333';
+      break;
+    case 'dark':
+      body.style.backgroundColor = '#333';
+      body.style.color = '#fff';
+      break;
+    case 'blue':
+      body.style.backgroundColor = '#3498db';
+      body.style.color = '#fff';
+      break;
+    case 'green':
+      body.style.backgroundColor = '#2ecc71';
+      body.style.color = '#fff';
+      break;
+      case '3.0':
+        body.style.backgroundColor = '#1a2023';
+        body.style.color = '#fff';
+        break;
+        case '2.0':
+          body.style.backgroundColor = '#212f3c';
+          body.style.color = '#fff';
+          break;
+    default:
+      break;
+  }
+}
