@@ -68,3 +68,22 @@ svg {
   fill: rgb(255, 255, 255);
 }
 
+::-webkit-scrollbar {
+  width: 15px;
+  border-radius: 15px;
+  
+}
+
+::-webkit-scrollbar-track {
+  background: #1a2023;
+  border-radius: 15px;
+  
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1d82ff;
+  border-radius: 15px;
+  height: 2px;
+  /* border-radius: 5px;  Optional */
+}
+

@@ -24,11 +24,11 @@
             <div class="collapse navbar-collapse" id="navcol-3">
                 <ul class="navbar-nav mx-auto">
                     <li class="nav-item"><a class="nav-link active" href="./" style="font-family: Ubuntu, sans-serif;"><strong><span style="color: rgba(255, 255, 255, 0.9);">Home</span></strong></a></li>
-                    <li class="nav-item"><a class="nav-link active" href="projects" style="font-family: Ubuntu, sans-serif;"><strong><span style="color: rgb(255, 255, 255);">Games</span></strong></a></li>
-                    <li class="nav-item"><a class="nav-link" href="bookmarklets" style="font-family: Ubuntu, sans-serif;"><strong><span style="color: rgb(255, 255, 255);">Bookmarklets</span></strong></a></li>
-                    <li class="nav-item"><a class="nav-link" href="apps" style="font-family: Ubuntu, sans-serif;"><strong><span style="color: rgb(255, 255, 255);">Apps</span></strong></a></li>
-                    <li class="nav-item"><a class="nav-link" href="blank" style="font-family: Ubuntu, sans-serif;"><strong><span style="color: rgb(255, 255, 255);">About:blank</span></strong></a></li>
-                    <li class="nav-item"><a class="nav-link" href="settings" style="font-family: Ubuntu, sans-serif;"><strong><span style="color: rgb(255, 255, 255);">Settings</span></strong></a></li>
+                    <li class="nav-item"><a class="nav-link active" href="projects.html" style="font-family: Ubuntu, sans-serif;"><strong><span style="color: rgb(255, 255, 255);">Games</span></strong></a></li>
+                    <li class="nav-item"><a class="nav-link" href="bookmarklets.html" style="font-family: Ubuntu, sans-serif;"><strong><span style="color: rgb(255, 255, 255);">Bookmarklets</span></strong></a></li>
+                    <li class="nav-item"><a class="nav-link" href="apps.html" style="font-family: Ubuntu, sans-serif;"><strong><span style="color: rgb(255, 255, 255);">Apps</span></strong></a></li>
+                    <li class="nav-item"><a class="nav-link" href="blank.html" style="font-family: Ubuntu, sans-serif;"><strong><span style="color: rgb(255, 255, 255);">About:blank</span></strong></a></li>
+                    <li class="nav-item"><a class="nav-link" href="settings.html" style="font-family: Ubuntu, sans-serif;"><strong><span style="color: rgb(255, 255, 255);">Settings</span></strong></a></li>
                     <li class="nav-item" style="margin-top: 8px;margin-left: 4px;">
                         <div class="nav-item dropdown"><a class="dropdown-toggle" aria-expanded="false" data-bs-toggle="dropdown" href="#" style="border-color: rgb(255,255,255);color: rgb(26,32,35);font-family: Ubuntu, sans-serif;"><strong><span style="color: rgb(255, 255, 255);">More</span></strong></a>
                             <div class="dropdown-menu" style="background: rgb(13,110,253);"><a class="dropdown-item" href="#" style="background: rgba(255,255,255,0);color: rgb(255,255,255);">Emulator</a><a class="dropdown-item" href="#" style="color: rgb(255,255,255);">Roms</a><a class="dropdown-item" href="#" style="color: rgb(255,255,255);">Credits</a></div>
@@ -94,4 +94,27 @@
      data-full-width-responsive="true"></ins>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
-</script><script src="core.js"></script><script src="assets/bootstrap/js/bootstrap.min.js"></script><script src="assets/js/script.js"></script><script src="assets/js/apps.js"></script><script src="assets/js/settings.js"></script></body></html>
+</script><script src="core.js"></script><script>
+    // Collect Tab Cloak data from local storage
+var tab = localStorage.getItem('tab');
+if (tab) {
+  try {
+    // Parse the data, it is in JSON
+    var tabData = JSON.parse(tab);
+  } catch {
+    var tabData = {};
+  }
+} else {
+  var tabData = {};
+}
+
+// Set the Tab title if the Tab cloak data is there
+if (tabData.title) {
+  document.title = tabData.title;
+}
+
+// Set the Tab icon if the Tab cloak data is there
+if (tabData.icon) {
+  document.querySelector('link[rel="icon"]').href = tabData.icon;
+}
+</script><script src="assets/bootstrap/js/bootstrap.min.js"></script><script src="assets/js/script.js"></script><script src="assets/js/apps.js"></script><script src="assets/js/settings.js"></script></body></html>

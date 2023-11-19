@@ -89,7 +89,30 @@
                         <path d="M5 12H19M5 12C3.89543 12 3 11.1046 3 10V6C3 4.89543 3.89543 4 5 4H19C20.1046 4 21 4.89543 21 6V10C21 11.1046 20.1046 12 19 12M5 12C3.89543 12 3 12.8954 3 14V18C3 19.1046 3.89543 20 5 20H19C20.1046 20 21 19.1046 21 18V14C21 12.8954 20.1046 12 19 12M17 8H17.01M17 16H17.01" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
                     </svg></a></li>
         </ul>
-    </div><script src="core.js"></script>
+    </div><script src="core.js"></script><script>
+    // Collect Tab Cloak data from local storage
+var tab = localStorage.getItem('tab');
+if (tab) {
+  try {
+    // Parse the data, it is in JSON
+    var tabData = JSON.parse(tab);
+  } catch {
+    var tabData = {};
+  }
+} else {
+  var tabData = {};
+}
+
+// Set the Tab title if the Tab cloak data is there
+if (tabData.title) {
+  document.title = tabData.title;
+}
+
+// Set the Tab icon if the Tab cloak data is there
+if (tabData.icon) {
+  document.querySelector('link[rel="icon"]').href = tabData.icon;
+}
+</script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/script.js"></script>
     <script src="assets/js/apps.js"></script>
